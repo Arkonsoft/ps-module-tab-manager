@@ -1,0 +1,22 @@
+{
+    "name": "arkonsoft/ps-module-tab-manager",
+    "description": "Tab Manager for Prestashop Modules",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 7.0",
+        "myclabs/php-enum": "1.6.6"
+    },
+    "authors": [
+        {
+            "name": "Arkonsoft",
+            "email": "info@arkonsoft.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Arkonsoft\\PsModule\\TabManager\\": ""
+        }
+    }
+}
